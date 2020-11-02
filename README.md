@@ -10,7 +10,6 @@ pip install django
 pip install graphene-django
 pip install requests
 pip install django-cors-headers
-pip install python-dotenv
 ```
 
 ## ToDo
