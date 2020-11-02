@@ -74,14 +74,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mbtaservice.wsgi.application'
 
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:4200',
-    'http://localhost:3000',
-]
-CORS_ORIGIN_REGEX_WHITELIST = [
-    'http://localhost:3000',
+    'http://localhost:4200'
 ]
 
 # Database
